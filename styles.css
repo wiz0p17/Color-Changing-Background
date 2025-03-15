@@ -1,0 +1,45 @@
+body{
+    background-color: #212121;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+p{
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+h1{
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+button{
+    height:40px;
+    width: 80px;
+    border-radius: 10px;
+    transition: 0.1s ease;
+    border: none;
+    box-shadow: rgba(244, 234, 234, 0.2);
+    background: linear-gradient(135deg,#ee962b,#ce114d);
+    font-size: 18px;
+    color: #fff;
+}
+
+button:active{
+    transform: scale(0.85);
+}
+
+#stop{
+    margin-left: 20px;
+}
